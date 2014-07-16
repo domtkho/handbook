@@ -1,6 +1,7 @@
 body {
   min-height: 2000px;
   font-size: 18px;
+  color: hsla(60, 15%, 30%, 1);
 }
 
 .navbar-static-top {
@@ -10,4 +11,69 @@ body {
 .navbar-header h1 {
  margin: 0;
  padding: 0;
+}
+
+main {
+  margin-top: 80px;
+}
+
+h2.lesson-title {
+  margin-top: 0;
+}
+
+.navbar-default a.navbar-brand {
+  color: hsla(208, 55.9%, 44.5%, 1);
+}
+
+.navbar-default a.navbar-brand:hover {
+  color: hsla( 194, 66.4%, 53.3%, 1 );
+}
+
+h2.lesson-title {
+  background-color: hsla(208, 55.9%, 44.5%, 1);
+  font-size: 32px;
+  font-weight: normal;
+  color: hsla(0, 0%, 100%, 1);
+  margin-top: 0;
+  padding: 0px;
+}
+
+aside.sidebar-nav {
+  padding-top: 15px;
+  background-color: hsla(0, 0%, 98%, 1);
+}
+
+aside.sidebar-nav ol {
+  list-style-type: none;
+  padding-left: 0px;
+}
+
+aside.sidebar-nav ol ol {
+  padding-left: 15px;
+}
+
+aside.sidebar-nav ol ol a {
+  color: hsla(120, 39.6%, 46.0%, 1);
+}
+
+aside.sidebar-nav ol ol a:hover {
+  color: hsla(120, 39.6%, 35.0%, 1);
+}
+
+aside.sidebar-nav ol ol ol {
+  list-style-type: disc;
+  color: hsla(194, 66.4%, 53.3%, 1);
+  padding-left: 20px;
+}
+
+aside.sidebar-nav ol ol ol a {
+  color: hsla( 194, 66.4%, 53.3%, 1 );
+}
+
+aside.sidebar-nav ol ol ol a:hover {
+  color: hsla( 194, 66.4%, 42.0%, 1 );
+}
+
+aside.sidebar-nav .current-page {
+  color: hsla(2, 64.7%, 50.0%, 1);
 }
